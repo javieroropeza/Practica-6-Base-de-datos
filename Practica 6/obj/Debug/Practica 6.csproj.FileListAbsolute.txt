@@ -1,0 +1,17 @@
+C:\Users\Alumnos\Documents\SharpDevelop Projects\Practica 6\Practica 6\obj\Debug\Practica 6.csprojResolveAssemblyReference.cache
+E:\profe. jonathan\Practica 6\Practica 6\obj\Debug\Practica 6.csprojResolveAssemblyReference.cache
+E:\profe. jonathan\Practica 6\Practica 6\bin\Debug\Practica 6.exe
+E:\profe. jonathan\Practica 6\Practica 6\bin\Debug\Practica 6.pdb
+E:\profe. jonathan\Practica 6\Practica 6\obj\Debug\Practica 6.exe
+E:\profe. jonathan\Practica 6\Practica 6\obj\Debug\Practica 6.pdb
+F:\profe. jonathan\Practica 6\Practica 6\obj\Debug\Practica 6.csprojResolveAssemblyReference.cache
+F:\profe. jonathan\Practica 6\Practica 6\obj\Debug\Practica 6.exe
+F:\profe. jonathan\Practica 6\Practica 6\obj\Debug\Practica 6.pdb
+F:\profe. jonathan\Practica 6\Practica 6\bin\Debug\Practica 6.exe
+F:\profe. jonathan\Practica 6\Practica 6\bin\Debug\Practica 6.pdb
+G:\profe. jonathan\Practica 6\Practica 6\obj\Debug\ResolveAssemblyReference.cache
+G:\profe. jonathan\Practica 6\Practica 6\obj\Debug\Practica 6.exe
+G:\profe. jonathan\Practica 6\Practica 6\obj\Debug\Practica 6.pdb
+G:\profe. jonathan\Practica 6\Practica 6\bin\Debug\Practica 6.exe
+G:\profe. jonathan\Practica 6\Practica 6\bin\Debug\Practica 6.pdb
+G:\profe. jonathan\Practica 6\Practica 6\bin\Debug\mysql.data.dll
