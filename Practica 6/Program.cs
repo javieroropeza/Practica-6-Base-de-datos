@@ -19,7 +19,7 @@ namespace Practica_6
 			do{
 				Console.WriteLine("\t***Menu***\n");
 				Console.WriteLine("1) Ver\n");
-            			Console.WriteLine("2) Agregar \n");
+            	Console.WriteLine("2) Agregar \n");
 				Console.WriteLine("3) Editar\n");
  				Console.WriteLine("4) Eliminar\n");
  				Console.WriteLine("5) Salir\n");
@@ -32,20 +32,18 @@ namespace Practica_6
 						break;	
 						
 					case 2:
-						Console.WriteLine( "Dame el ID " );
-						String id = Console.ReadLine();
 						Console.WriteLine( "Dame el codigo " );
 						String codigo = Console.ReadLine();
 						Console.WriteLine( "Dame el nombre" );
 						String nombre = Console.ReadLine();
-						profesor.insertarRegistroNuevo(id, codigo,  nombre);
+						profesor.insertarRegistroNuevo(codigo,  nombre);
 						
 						break;
 
 					case 3:
 
 						Console.WriteLine( "Dame el  ID del registro" );
-						  id = Console.ReadLine();
+						string id = Console.ReadLine();
 						
 						 
 						if(profesor.Buscarid( id )){
@@ -73,12 +71,14 @@ namespace Practica_6
       						Console.WriteLine( "Dame el  ID del registro" );
 							 id = Console.ReadLine();
       						if(profesor.Buscarid(id )){
-							
-							Console.WriteLine("¿Seguro que desea eliminarlo?" );
-							string dig = Console.ReadLine();
-							if(dig == "s")
-								profesor.eliminarRegistroPorId( id);
-							}
+							 	codigo = Console.ReadLine();
+								nombre = Console.ReadLine();
+								
+								Console.WriteLine("¿Seguro que desea eliminarlo?" );
+								string dig = Console.ReadLine();
+								if(dig == "s")
+									profesor.eliminarRegistroPorId( id);
+								}
 							else{
 								Console.WriteLine( "El id no existe presione cualquier tecla para continuar " );
       							 Console.ReadLine();

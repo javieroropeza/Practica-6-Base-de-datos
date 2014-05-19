@@ -39,9 +39,9 @@ namespace Practica_6
 			this.cerrarConexion();
 		}
 
-		public void insertarRegistroNuevo(string id,string codigo, string nombre){
+		public void insertarRegistroNuevo(string codigo, string nombre){
 			this.abrirConexion();
-			string sql = "INSERT INTO `Profesores` (`id`, `codigo`, `nombre`) VALUES ('" + id  + "','" + codigo + "', '" + nombre + "')";
+			string sql = "INSERT INTO `Profesores` (`codigo`, `nombre`) VALUES ('" + codigo + "', '" + nombre + "')";
 			this.ejecutarComando(sql);
 			this.cerrarConexion();
 		}
